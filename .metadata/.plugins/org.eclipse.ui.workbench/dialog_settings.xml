@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="250" key="dialogHeight"/>
+		<item value="350" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.epp.mpc.ui.command.showMarketplaceWizard"/>
+			<item value="org.eclipse.egit.ui.CreateRepositoryWizard"/>
+			<item value="org.eclipse.egit.ui.RepositoriesViewClone"/>
+			<item value="org.eclipse.jdt.ui.JavaPerspective"/>
+			<item value="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+			<item value="de.tobject.findbugs.FindBugsPerspective"/>
+			<item value="org.eclipse.debug.ui.DebugPerspective"/>
+			<item value="de.tobject.findbugs.view.buginfoview"/>
+			<item value="net.sourceforge.pmd.eclipse.ui.views.pmdPerspective"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.wizards"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.perspectives"/>
+			<item value="org.eclipse.ui.perspectives"/>
+			<item value="org.eclipse.ui.perspectives"/>
+			<item value="org.eclipse.ui.perspectives"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.perspectives"/>
+		</list>
+		<list key="textArray">
+			<item value="marke"/>
+			<item value="git t"/>
+			<item value="git re"/>
+			<item value="per"/>
+			<item value="pers"/>
+			<item value="find"/>
+			<item value="pe"/>
+			<item value="fin"/>
+			<item value="pmd"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+	</section>
+</section>

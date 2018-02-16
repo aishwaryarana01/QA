@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Java Code\pong"/>
+		<item value="C:\Java Code\calculator"/>
+		<item value="C:\Java Code\calcProj"/>
+		<item value="C:\Java Code\String Matching Plagiarism"/>
+		<item value="C:\Java Code\KnapsackAlgorithms"/>
+		<item value="C:\Java Code\FindBugsProject"/>
+		<item value="C:\Java Code\GitHub Project"/>
+		<item value="C:\Users\aishp\Desktop\QA"/>
+		<item value="C:\Java Code\QA"/>
+	</list>
+</section>

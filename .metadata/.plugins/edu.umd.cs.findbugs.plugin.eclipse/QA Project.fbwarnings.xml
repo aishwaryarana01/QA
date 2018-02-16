@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="17" timestamp="1510879518982" analysisTimestamp="1510879518723" release="">
+  <Project projectName="QA Project">
+    <Jar>C:\Users\aishp\Desktop\QA\bin\HashCode$Pair.class</Jar>
+    <Jar>C:\Users\aishp\Desktop\QA\bin\HashCode.class</Jar>
+    <AuxClasspathEntry>C:\Users\aishp\Desktop\QA\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_151\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\aishp\Desktop\QA\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="707" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <LocalVariable name="v" register="22" pc="650" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="FindBugs" start="75" end="75" startBytecode="648" endBytecode="648" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="75" end="75" startBytecode="648" endBytecode="648" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="v"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="foo" signature="()V" isStatic="false">
+      <SourceLine classname="FindBugs" start="148" end="150" startBytecode="0" endBytecode="4" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <LocalVariable name="x" register="1" pc="4" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="FindBugs" start="149" end="149" startBytecode="3" endBytecode="3" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="149" end="149" startBytecode="3" endBytecode="3" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="x"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="foo1" signature="()V" isStatic="false">
+      <SourceLine classname="FindBugs" start="153" end="154" startBytecode="0" endBytecode="4" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <LocalVariable name="x" register="1" pc="5" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="FindBugs" start="153" end="153" startBytecode="4" endBytecode="4" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="153" end="153" startBytecode="4" endBytecode="4" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="x"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="707" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <LocalVariable name="q" register="9" pc="22" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="FindBugs" start="12" end="12" startBytecode="20" endBytecode="20" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="12" end="12" startBytecode="20" endBytecode="20" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="q"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="31" end="31" startBytecode="73" endBytecode="73" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="31" end="31" startBytecode="73" endBytecode="73" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_LOOP" priority="1" rank="8" abbrev="IL" category="CORRECTNESS" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="61" end="61" startBytecode="624" endBytecode="624" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <LocalVariable name="t" register="20" pc="624" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="FindBugs" start="60" end="60" startBytecode="614" endBytecode="614" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="IM_BAD_CHECK_FOR_ODD" priority="2" rank="13" abbrev="IM" category="STYLE" first="10" last="13" removedByChange="true">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="22" end="22" startBytecode="48" endBytecode="48" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="22" end="22" startBytecode="48" endBytecode="48" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="NP_ALWAYS_NULL" priority="1" rank="5" abbrev="NP" category="CORRECTNESS" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <Field classname="FindBugs" name="abc" signature="Ljava/lang/String;" isStatic="true" role="FIELD_VALUE_OF">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Field>
+    <SourceLine classname="FindBugs" start="53" end="53" startBytecode="599" endBytecode="599" sourcefile="FindBugs.java" sourcepath="FindBugs.java" role="SOURCE_LINE_DEREF"/>
+  </BugInstance>
+  <BugInstance type="RANGE_ARRAY_INDEX" priority="2" rank="7" abbrev="RANGE" category="CORRECTNESS" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="79" end="79" startBytecode="667" endBytecode="667" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <Int value="12" role="INT_VALUE"/>
+    <Int value="9" role="INT_MAX_VALUE"/>
+    <SourceLine classname="FindBugs" start="79" end="79" startBytecode="667" endBytecode="667" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="79" end="79" startBytecode="667" endBytecode="667" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="RANGE_ARRAY_INDEX" priority="2" rank="7" abbrev="RANGE" category="CORRECTNESS" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="80" end="80" startBytecode="673" endBytecode="673" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <Int value="13" role="INT_VALUE"/>
+    <Int value="9" role="INT_MAX_VALUE"/>
+    <SourceLine classname="FindBugs" start="80" end="80" startBytecode="673" endBytecode="673" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="80" end="80" startBytecode="673" endBytecode="673" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="RANGE_ARRAY_INDEX" priority="2" rank="7" abbrev="RANGE" category="CORRECTNESS" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="81" end="81" startBytecode="679" endBytecode="679" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <Int value="14" role="INT_VALUE"/>
+    <Int value="9" role="INT_MAX_VALUE"/>
+    <SourceLine classname="FindBugs" start="81" end="81" startBytecode="679" endBytecode="679" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="81" end="81" startBytecode="679" endBytecode="679" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED" priority="3" rank="8" abbrev="RV" category="CORRECTNESS" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="106" end="106" startBytecode="954" endBytecode="954" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="106" end="106" startBytecode="954" endBytecode="954" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED" priority="3" rank="8" abbrev="RV" category="CORRECTNESS" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="length" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="53" end="53" startBytecode="599" endBytecode="599" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="53" end="53" startBytecode="599" endBytecode="599" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="SA_LOCAL_DOUBLE_ASSIGNMENT" priority="2" rank="17" abbrev="SA" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="foo1" signature="()V" isStatic="false">
+      <SourceLine classname="FindBugs" start="153" end="154" startBytecode="0" endBytecode="61" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <LocalVariable name="x" register="1" pc="4" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="FindBugs" start="153" end="153" startBytecode="4" endBytecode="4" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="SA_LOCAL_SELF_ASSIGNMENT" priority="2" rank="17" abbrev="SA" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="foo" signature="()V" isStatic="false">
+      <SourceLine classname="FindBugs" start="148" end="150" startBytecode="0" endBytecode="64" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <LocalVariable name="x" register="1" pc="3" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="FindBugs" start="149" end="149" startBytecode="3" endBytecode="3" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="UCF_USELESS_CONTROL_FLOW" priority="3" rank="20" abbrev="UCF" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="70" end="70" startBytecode="641" endBytecode="641" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="70" end="70" startBytecode="641" endBytecode="641" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_CONDITION" priority="3" rank="19" abbrev="UC" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <String value="y != 4"/>
+    <SourceLine classname="FindBugs" start="14" end="14" startBytecode="34" endBytecode="34" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="14" end="14" startBytecode="34" endBytecode="34" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_OBJECT" priority="2" rank="17" abbrev="UC" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="FindBugs" start="6" end="146" startBytecode="0" endBytecode="1994" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <String value="h"/>
+    <Type descriptor="[I"/>
+    <SourceLine classname="FindBugs" start="76" end="76" startBytecode="652" endBytecode="652" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_VOID_METHOD" priority="3" rank="20" abbrev="UC" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="foo" signature="()V" isStatic="false">
+      <SourceLine classname="FindBugs" start="148" end="150" startBytecode="0" endBytecode="64" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="150" end="150" startBytecode="4" endBytecode="4" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="150" end="150" startBytecode="4" endBytecode="4" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_VOID_METHOD" priority="3" rank="20" abbrev="UC" category="STYLE" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Method classname="FindBugs" name="foo1" signature="()V" isStatic="false">
+      <SourceLine classname="FindBugs" start="153" end="154" startBytecode="0" endBytecode="61" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Method>
+    <SourceLine classname="FindBugs" start="154" end="154" startBytecode="5" endBytecode="5" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    <SourceLine classname="FindBugs" start="154" end="154" startBytecode="5" endBytecode="5" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_NULL_FIELD" priority="3" rank="15" abbrev="UwF" category="CORRECTNESS" first="7">
+    <Class classname="FindBugs">
+      <SourceLine classname="FindBugs" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Class>
+    <Field classname="FindBugs" name="abc" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="FindBugs" start="2" end="2" startBytecode="0" endBytecode="0" sourcefile="FindBugs.java" sourcepath="FindBugs.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="HashCode">
+      <SourceLine classname="HashCode" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Class>
+    <Method classname="HashCode" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="HashCode" start="6" end="11" startBytecode="0" endBytecode="20" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Method>
+    <LocalVariable name="hc" register="2" pc="40" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HashCode" start="10" end="10" startBytecode="39" endBytecode="39" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    <SourceLine classname="HashCode" start="10" end="10" startBytecode="39" endBytecode="39" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="hc"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="HE_USE_OF_UNHASHABLE_CLASS" priority="1" rank="1" abbrev="HE" category="CORRECTNESS" first="1" last="15" removedByChange="true">
+    <Class classname="HashCode">
+      <SourceLine classname="HashCode" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Class>
+    <Method classname="HashCode" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="HashCode" start="6" end="11" startBytecode="0" endBytecode="136" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Method>
+    <Type descriptor="LHashCode$Pair;" role="TYPE_UNHASHABLE">
+      <SourceLine classname="HashCode$Pair" start="1" end="34" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Type>
+    <Method classname="java.util.HashSet" name="add" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.HashSet"/>
+    </Method>
+    <SourceLine classname="HashCode" start="7" end="7" startBytecode="18" endBytecode="18" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+  </BugInstance>
+  <BugInstance type="ISC_INSTANTIATE_STATIC_CLASS" priority="3" rank="19" abbrev="ISC" category="BAD_PRACTICE" first="1">
+    <Class classname="HashCode">
+      <SourceLine classname="HashCode" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Class>
+    <Method classname="HashCode" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="HashCode" start="6" end="11" startBytecode="0" endBytecode="136" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Method>
+    <SourceLine classname="HashCode" start="10" end="10" startBytecode="36" endBytecode="36" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="17">
+    <Class classname="HashCode$Pair">
+      <SourceLine classname="HashCode$Pair" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Class>
+    <Method classname="HashCode$Pair" name="hashCode" signature="()I" isStatic="false">
+      <SourceLine classname="HashCode$Pair" start="37" end="37" startBytecode="0" endBytecode="70" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <SourceLine classname="HashCode$Pair" start="37" end="37" startBytecode="21" endBytecode="21" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    <SourceLine classname="HashCode$Pair" start="37" end="37" startBytecode="21" endBytecode="21" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="2" rank="16" abbrev="HE" category="BAD_PRACTICE" first="1" last="15" removedByChange="true">
+    <Class classname="HashCode$Pair">
+      <SourceLine classname="HashCode$Pair" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Class>
+    <Method classname="HashCode$Pair" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="HashCode$Pair" start="30" end="34" startBytecode="0" endBytecode="130" sourcefile="HashCode.java" sourcepath="HashCode.java"/>
+    </Method>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 16 Nov 2017 18:45:13 -0600" total_classes="2" referenced_classes="15" total_bugs="23" total_size="30" num_packages="1" java_version="1.8.0_151" vm_version="25.151-b12" cpu_seconds="0.53" clock_seconds="0.26" peak_mbytes="616.27" alloc_mbytes="1024.00" gc_seconds="0.09" priority_3="8" priority_2="11" priority_1="4">
+    <PackageStats package="" total_bugs="23" total_types="3" total_size="30" priority_3="8" priority_2="11" priority_1="4">
+      <ClassStats class="HashCode" sourceFile="HashCode.java" interface="false" size="9" bugs="2" priority_3="1" priority_1="1"/>
+      <ClassStats class="HashCode$Pair" sourceFile="HashCode.java" interface="false" size="21" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="96" invocations="331" avgMicrosecondsPerInvocation="290" maxMicrosecondsPerInvocation="43573" standardDeviationMircosecondsPerInvocation="2404"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="47" invocations="2" avgMicrosecondsPerInvocation="23501" maxMicrosecondsPerInvocation="41760" standardDeviationMircosecondsPerInvocation="18259"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="36" invocations="332" avgMicrosecondsPerInvocation="111" maxMicrosecondsPerInvocation="18532" standardDeviationMircosecondsPerInvocation="1012"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="32" invocations="15" avgMicrosecondsPerInvocation="2192" maxMicrosecondsPerInvocation="31886" standardDeviationMircosecondsPerInvocation="7936"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1510870213188" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1510870213188" release="" codeSize="28" numClasses="2"/>
+    <AppVersion sequence="2" timestamp="1510870890839" release="" codeSize="30" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1510870979403" release="" codeSize="30" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1510871045957" release="" codeSize="30" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1510871068635" release="" codeSize="28" numClasses="2"/>
+    <AppVersion sequence="6" timestamp="1510871087521" release="" codeSize="30" numClasses="2"/>
+    <AppVersion sequence="7" timestamp="1510871116536" release="" codeSize="103" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1510871135875" release="" codeSize="103" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1510871157699" release="" codeSize="103" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1510871180121" release="" codeSize="103" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1510871260983" release="" codeSize="28" numClasses="2"/>
+    <AppVersion sequence="12" timestamp="1510871279886" release="" codeSize="30" numClasses="2"/>
+    <AppVersion sequence="13" timestamp="1510879305990" release="" codeSize="103" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1510879371333" release="" codeSize="103" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1510879453121" release="" codeSize="28" numClasses="2"/>
+    <AppVersion sequence="16" timestamp="1510879505289" release="" codeSize="30" numClasses="2"/>
+  </History>
+</BugCollection>
